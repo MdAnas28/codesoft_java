@@ -1,6 +1,6 @@
 this repository is only for codsoft java internship program
 
-Task 1 :- NUMBER GAME task1_numbergame https://github.com/MdAnas28/codesoft_java/blob/15139cf7259b66e8b41ff9689a258aa95e4d389b/task1_numbergame
+Task 1 :- N[UMBER GAME ](https://github.com/MdAnas28/codesoft_java/blob/15139cf7259b66e8b41ff9689a258aa95e4d389b/task1_numbergame)
 
 Description:-
 
