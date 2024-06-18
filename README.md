@@ -1,6 +1,6 @@
 this repository is only for codsoft java internship program
 
-Task 1 :- NUMBER GAME task1_numbergame
+Task 1 :- NUMBER GAME
 
 Description:-
 
