@@ -1,0 +1,30 @@
+import java.util.Scanner;
+// Task 2 : program to Calculate Total Marks,Calculate Average Percentage,Grade Calculation
+public class grade_cal {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int TotMak = 0,TotSub,i;
+        System.out.println("Enter the total Number of Subjects");
+        TotSub= scan.nextInt();
+        for(i=1;i<=TotSub;i++){
+            System.out.println("subject " + i + ": ");
+            TotMak+=scan.nextInt();
+        }
+        double avg= (double) TotMak/(TotSub *100) * 100;
+        String grade = Grade(avg);
+        System.out.println("Total Marks obtained " + TotMak);
+        System.out.println("Average Percentage obtained " + avg);
+        System.out.println("Grade Obtained " + grade);
+        scan.close();
+    }
+    public static String Grade(double a){
+        if(a>=90){ return "A+";}
+        else if(a>=80){ return "A";}
+        else if(a>=70){ return "B+";}
+        else if(a>=60){ return "B";}
+        else if(a>=50){ return "C+";}
+        else if(a>=40){ return "D";}
+        else if(a>=35){ return "E";}
+        else { return "F";}
+    }
+}
