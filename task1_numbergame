@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Random;
-
+// task1:- program to guess the random number
 class Main {
 
     public static void main(String[] args) {
