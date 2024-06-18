@@ -1,0 +1,72 @@
+import java.util.Scanner;
+import java.util.Random;
+
+class Main {
+
+    public static void main(String[] args) {
+        System.out.println("GUESS THE NUMBER GAME (RANGE 0 TO 100) " +
+                "\n YOU WILL GET 11 CHANCES TO GUESS" +
+                "\n ENTER YOURE NUMBER ");
+        Scanner scan = new Scanner(System.in);
+        Random random = new Random();
+        Boolean confi = true;
+        int score = 0;
+
+        while (confi) {
+            int randomNum = random.nextInt(100);
+            for (int i = 0; i < 11; i++) {
+                System.out.println(randomNum);
+                int guessNum = scan.nextInt();
+                if (i == 10) {
+                    System.out.println("GAME OVER");
+                    System.out.println("Your score is 0 :( ");
+                    System.out.println("THE CORRECT NUMBER IS " + randomNum);
+                    break;
+                }
+                if (guessNum == randomNum) {
+                    System.out.println("YOU GUESS THE RIGHT NUMBER :) ");
+                    if (i == 0) {
+                        score = 100;
+                    } else if (i == 1) {
+                        score = 90;
+                    } else if (i == 2) {
+                        score = 80;
+                    } else if (i == 3) {
+                        score = 70;
+                    } else if (i == 4) {
+                        score = 60;
+                    } else if (i == 5) {
+                        score = 50;
+                    } else if (i == 6) {
+                        score = 40;
+                    } else if (i == 7) {
+                        score = 30;
+                    } else if (i == 8) {
+                        score = 20;
+                    } else if (i == 9) {
+                        score = 10;
+                    }
+                    System.out.println("Your score out of '100' is " + score);
+                    break;
+                } else if (guessNum > randomNum) {
+                    System.out.println("you're Guess is higher than the Number");
+                } else if (guessNum < randomNum) {
+                    System.out.println("you're Guess is Lower than the Number");
+                }
+            }
+
+
+            System.out.println("Play Again??? \n If Yes type 'true' \n If No type 'false' \n Default will be false");
+            try {
+                confi = scan.nextBoolean();
+            } catch (Exception e) {
+                confi = false;
+                scan.nextLine();
+            }
+
+        }
+        scan.close();
+    }
+
+}
+
