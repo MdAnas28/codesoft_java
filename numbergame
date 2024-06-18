@@ -15,7 +15,7 @@ class Main {
         while (confi) {
             int randomNum = random.nextInt(100);
             for (int i = 0; i < 11; i++) {
-                System.out.println(randomNum);
+                //System.out.println(randomNum); // to see the generated random number
                 int guessNum = scan.nextInt();
                 if (i == 10) {
                     System.out.println("GAME OVER");
