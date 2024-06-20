@@ -1,6 +1,6 @@
 this repository is only for codsoft java internship program
 
-Task 1 :- N[UMBER GAME ](https://github.com/MdAnas28/codesoft_java/blob/15139cf7259b66e8b41ff9689a258aa95e4d389b/task1_numbergame)
+Task 1 :- [NUMBER GAME ](https://github.com/MdAnas28/codesoft_java/blob/15139cf7259b66e8b41ff9689a258aa95e4d389b/task1_numbergame)
 
 Description:-
 
@@ -13,7 +13,7 @@ This is the number guessing game made using java language. In this a random numb
 . Display the user's score, which can be based on the number of attempts taken or rounds won.
 
 
-Task 2 :- STUDENT GRADE CALCULATOR
+Task 2 :- [STUDENT GRADE CALCULATOR](https://github.com/MdAnas28/codesoft_java/blob/875f0393896d69decc032dd88710cbb803768909/task2_student_grade_calculator)
 
 Description:-
 
